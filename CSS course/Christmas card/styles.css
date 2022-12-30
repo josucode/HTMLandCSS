@@ -1,0 +1,62 @@
+body{
+    font-family: 'Festive', cursive;
+    text-align: center;
+    color: #FFB900;
+    font-size: 50px;
+    background-color: #005448;
+}
+#MC-img {
+    border-radius: 50%;
+    border: 6px solid #005448;
+    width: 500px;
+}
+#gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -30px -50px;
+    background-image: url(images/Christmas-background.jpg);
+    background-size: cover;
+}
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #FD0C20;
+    border-radius: 20px;
+    background-image: url(images/gift-cover.jpg);   
+    background-size: cover;
+}
+#message-4 {
+    border-bottom: 4px solid #FF638C;
+    color: #e4f591 ;
+    font-size: 100px;
+    padding: 0px 10px 0px 10px;
+
+    margin: 20px 0 10px 0;
+}
+#message-5 {
+    color: #e4f591;
+    text-shadow:#bc4749;
+   font-size: 50px;
+   border-bottom: 4px solid #FF638C;
+   margin-top: 0px;
+}
+#header {
+    border: 5px solid #52B086;
+    margin: 50px;
+    background-image: url(images/giphy\ \(1\).gif);
+    
+}
+.gift-img:hover {
+    background-image: url(images/giphy1.gif);
+   
+}
+
+#footer {
+    color: white;
+    font-size: 30px;
+}
+a {
+    color: white;
+}

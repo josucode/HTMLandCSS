@@ -1,0 +1,65 @@
+body{
+    background-image: url(/images/background.jpg);
+    background-size: cover
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 52px;
+    margin-bottom: 0px;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 10px 10px;
+    color: white;
+    margin: auto;
+    max-width: 60%;
+    border-radius: 10px;
+    padding: 40px 32px;
+}
+
+.row-image {
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+    object-fit:fill;
+}
+.row {
+    display:flex;
+    margin-bottom: 32px;
+}
+.row-title- {
+    font-size: 44px;
+    width: 30%;
+}
+.row-list {
+margin-left: 32px;
+width: 60%;
+}
+.row-list a {
+    color: white;
+}
+.row-list li {
+    margin-bottom: 8px;
+}
+.course-link{
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 16px;
+}
+.title-container {
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
